@@ -1,0 +1,128 @@
+.section-1 {
+  width: 90%;
+  margin: auto;
+  padding: 50px 0px;
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .futcards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    .futcard {
+      width: 33%;
+      transition: 0.4s;
+      text-align: center;
+      cursor: pointer;
+      padding: 8px 0;
+      &:hover {
+        background-color: rgba(255, 166, 0, 0.222);
+        border: 1.5px solid orange;
+      }
+      img {
+        width: 60%;
+        margin: auto;
+      }
+    }
+  }
+}
+.section-2 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  .left {
+    width: 48%;
+    position: relative;
+    .mainArea {
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      z-index: -1;
+    }
+    .top {
+      position: absolute;
+      left: 185px;
+      top: 100px;
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        p {
+          text-align: center;
+          font-weight: 700;
+          font-size: 64px;
+          color: wheat;
+          margin: 0;
+          padding: 0px;
+          &:first-child {
+            font-size: 100px;
+          }
+          img {
+            width: 100px;
+            height: 70px;
+            margin-bottom: 30px;
+            &:last-child {
+              width: 100px;
+              height: 80px;
+            }
+          }
+        }
+      }
+      .pic {
+        position: absolute;
+        top: 13px;
+        z-index: -1;
+        img {
+          width: 470%;
+        }
+      }
+    }
+    .bottom {
+      position: absolute;
+      top: 575px;
+      left: 110px;
+      text-align: center;
+      color: aliceblue;
+      #name {
+        font-size: 75px;
+      }
+      .skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        p {
+          width: 50%;
+          font-size: 32px;
+        }
+      }
+    }
+  }
+  .right {
+    width: 48%;
+    margin-top: 60px;
+    h1 {
+      color: orange;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    }
+    label {
+      display: block;
+      margin-top: 20px;
+    }
+    h4 {
+      color: orange;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      margin-top: 20px;
+    }
+    button {
+      display: block;
+      background-color: orange;
+      border: 1px solid black;
+      margin: 10px 0;
+      color: white;
+      padding: 10px 5px;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>FutCard Creator</title>
+  </head>
+  <body>
+    <header>
+      <!-- Image and text -->
+      <nav class="navbar navbar-light bg-warning">
+        <a class="navbar-brand" href="#">
+          <img
+            style="width: 50px"
+            src="./assets/img/eFootball-Emblem.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt="" />
+          FUTCARD CREATOR
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="section-1">
+        <h1 class="text-warning">Create Your Own Fut Card!</h1>
+        <h4 class="text-dark" style="text-align: center; margin-top: 10px">
+          Select FutCard Background
+        </h4>
+        <div class="futcards"></div>
+      </section>
+      <section class="section-2">
+        <div class="left">
+          <img class="mainArea" id="mainArea" src="" alt="" />
+          <div class="top">
+            <div class="info" style="width: 100px">
+              <p class="info-text" id="average"></p>
+              <p class="info-text" id="position"></p>
+              <p id="nation">
+                <img src="" alt="" />
+              </p>
+              <p id="club">
+                <img src="" alt="" />
+              </p>
+            </div>
+            <div class="pic">
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="name">
+              <p id="name"></p>
+            </div>
+            <div class="skills">
+              <p><span id="pac"></span> SPE</p>
+              <p><span id="sho"></span> SHO</p>
+              <p><span id="pas"></span> PAS</p>
+              <p><span id="dri"></span> DRI</p>
+              <p><span id="def"></span> DEF</p>
+              <p><span id="phy"></span> PHY</p>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <h1>Set Your Statics!</h1>
+          <h4>info</h4>
+          <label for="">What is Your Position?</label>
+          <input type="text" id="posInput" />
+
+          <label for="">What is Your Nationality?</label>
+          <input type="file" id="nationInput" />
+
+          <label for="">What is Your Club?</label>
+          <input type="file" id="clubInput" />
+
+          <label for="">What is Your Name</label>
+          <input type="text" id="nameInput" />
+
+          <label for=""
+            >Enter Your Photo ( Please enter a photo that background is
+            TRANSPARENT )</label
+          >
+          <input type="file" id="photoInput" />
+
+          <h4>Skills</h4>
+          <label for="">What is Your Top Speed Average?</label>
+          <input type="text" id="speedInput" />
+
+          <label for="">What is Your Pas Average?</label>
+          <input type="text" id="pasInput" />
+
+          <label for="">What is Your Defence Average?</label>
+          <input type="text" id="defenceInput" />
+
+          <label for="">What is Your Shoot Average?</label>
+          <input type="text" id="shootInput" />
+
+          <label for="">What is Your Dribling Average?</label>
+          <input type="text" id="driblInput" />
+
+          <label for="">What is Your Physics Average?</label>
+          <input type="text" id="physicsInput" />
+
+          <button id="change">SET ALL INFORMATIONS</button>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
