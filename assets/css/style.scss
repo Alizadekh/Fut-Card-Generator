@@ -44,7 +44,7 @@
     }
     .top {
       position: absolute;
-      left: 185px;
+      left: 165px;
       top: 100px;
       .info {
         display: flex;
@@ -54,7 +54,7 @@
           text-align: center;
           font-weight: 700;
           font-size: 64px;
-          color: wheat;
+          color: rgb(0, 0, 0);
           margin: 0;
           padding: 0px;
           &:first-child {
@@ -73,7 +73,7 @@
       }
       .pic {
         position: absolute;
-        top: 13px;
+        bottom: -20px;
         z-index: -1;
         img {
           width: 470%;
@@ -82,10 +82,10 @@
     }
     .bottom {
       position: absolute;
-      top: 575px;
-      left: 110px;
+      top: 595px;
+      left: 35px;
       text-align: center;
-      color: aliceblue;
+      color: rgb(0, 0, 0);
       #name {
         font-size: 75px;
       }
@@ -95,7 +95,8 @@
         flex-wrap: wrap;
         p {
           width: 50%;
-          font-size: 32px;
+          font-size: 38px;
+          font-weight: 600;
         }
       }
     }

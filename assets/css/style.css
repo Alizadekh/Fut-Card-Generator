@@ -47,7 +47,7 @@
 }
 .section-2 .left .top {
   position: absolute;
-  left: 185px;
+  left: 165px;
   top: 100px;
 }
 .section-2 .left .top .info {
@@ -59,7 +59,7 @@
   text-align: center;
   font-weight: 700;
   font-size: 64px;
-  color: wheat;
+  color: rgb(0, 0, 0);
   margin: 0;
   padding: 0px;
 }
@@ -77,7 +77,7 @@
 }
 .section-2 .left .top .pic {
   position: absolute;
-  top: 13px;
+  bottom: -20px;
   z-index: -1;
 }
 .section-2 .left .top .pic img {
@@ -85,10 +85,10 @@
 }
 .section-2 .left .bottom {
   position: absolute;
-  top: 575px;
-  left: 110px;
+  top: 595px;
+  left: 35px;
   text-align: center;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 .section-2 .left .bottom #name {
   font-size: 75px;
@@ -100,7 +100,8 @@
 }
 .section-2 .left .bottom .skills p {
   width: 50%;
-  font-size: 32px;
+  font-size: 38px;
+  font-weight: 600;
 }
 .section-2 .right {
   width: 48%;
