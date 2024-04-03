@@ -7,3 +7,7 @@ This project contains a web application that can be used to create football play
  - Card design: Configure card design with different color options and backgrounds.
  - Visual customization: Option to upload a player photo or select one from default images.
  - Card preview: Preview the created card.
+
+# Demo Link
+
+https://alizadekh.github.io/Fut-Card-Generator/
