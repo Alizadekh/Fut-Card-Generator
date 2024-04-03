@@ -1,4 +1,4 @@
-# Fut-Card-Generator
+# ⚽Fut-Card-Generator
 
 This project contains a web application that can be used to create football player cards resembling # FIFA Ultimate Team (# FUT) cards.
 
